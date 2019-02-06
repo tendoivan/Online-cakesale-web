@@ -1,0 +1,127 @@
+.BakeryNav{
+	background-color:#000000;
+	font-family:Century Gothic;
+
+}	
+
+
+.logo{
+	height:110px;
+	width:200px;
+	margin-left:50px;
+	margin-right:20px;
+	margin-top:0px;
+}
+	
+.formBakery{
+	width:200px !important;
+	margin-left: 40px;
+	height:33px;
+	margin-top:40px;
+	border-radius:0px;
+	margin-right:-3px;
+}
+
+.BakeryNav1{
+	height:135px;
+	background-color:#FFFFFF;
+	font-size:16px;
+	margin-bottom:0px !important;
+	border-radius:0px;
+	border:0px;
+	
+}
+.bkr_button{
+	margin-top:40px;
+	border-radius:0px;
+	background-color:#000000;
+}
+
+.bkr_button:hover,.bkr_button:focus,.bkr_button.focus{
+					color:#000000;/*สีตัวหนังสือในปุ่ม*/
+					background:#FFFFFF;/*พื้นหลังปุ่ม*/
+					border-color:#000000;/*เส้นขอบปุ่ม*/
+					}
+					
+.navdrop{margin-top:40px;
+	margin-left:100px;
+	
+}
+
+.navicon{margin-top:30px;
+
+}
+
+
+.Project_row1{border:0px solid black; margin-bottom:11px; margin-top:11px;}
+	.Project_grid1{border:0px solid black; padding:10px; }
+	.Project_grid2{border:0px solid black; margin-left:270px;}
+	.Project_grid3{border:0px solid black; padding:10px;}
+	.film_smallgrid3{ padding:0px; margin-bottom:11px;}
+	.film_smallgrid4{ padding:0;}
+	
+.Project_row2{border:0px solid black; padding:5px; margin-bottom:px; }
+	.Project_grid_1{ border:0px solid black; }
+	.Project_grid_2{ border:px solid #FFCAB0; background-color:#FFFFFF; padding:10px;}
+		.small1{border:0px solid black;}
+		.small2{border:0px solid black; margin-top:30px; padding:30px;}
+	
+	.Project_grid_3{ border:0px solid black; }
+
+.Project_row3{border:0px solid black; padding:5px; margin-bottom:200px;  margin-top:50px;}
+	.Project_grid4{ border:0px solid black; }
+	.Project_grid5{ border:px solid #FFCAB0; background-color:#FFFFFF; padding:10px;}
+		.small3{border:0px solid black; margin-top:60px; padding:30px;}
+		.small4{border:0px solid black; }
+	.Project_grid6{ border:0px solid black; }
+	
+.Project_pic2{margin-left:450px; padding:0px;}
+
+.Project_special
+	.special2{margin-left:50px;}
+	
+
+
+	
+.filmlist{background:grey !important;
+		  border-radius:15px !important;
+		  border:0px;}
+		  
+.filml{border:0px;}
+
+.Project_row9{ padding:5px; }
+	.Project_grid9{padding:5px; }
+	.Project_smallgrid5{margin-bottom:11px;}
+	.products{margin-bottom:50px; }
+	.productsc{ padding:50px;}
+
+.bkr_button{
+	background-color:#000000;
+	border:1px solid white;
+}
+
+
+.page_footer{
+	font-family:Trattalo,fantasy;
+	background:#ffe3d7;
+}
+.rowwie_1{
+	border:0px solid black;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.smalldo1{ 
+
+border:0px solid black;
+	
+}
+
+.developers3sp{ border:0px solid black;
+	margin-bottom:100px;
+}
+
+.smalldevelopers1{
+	padding:50px;
+}
+

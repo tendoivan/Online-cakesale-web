@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<title>login</title>
+
+<!-- Bootstrap core CSS -->
+
+
+<!-- Custom styles for this template -->
+<link href="{% static 'themes/css/full-slider.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/style1.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/font-awesome.css' %}" rel="stylesheet">
+
+</head>
+
+
+
+
+{% block content %}
+<br><hr>
+    <center>
+			
+				<a href="#"><img class="logo" src="{% static 'themes/img/logo.png ' %}"></a>
+		
+	  
+	  <br><hr>
+            <form style="font-family:Letter Gothic Std; margin-top:50px;" action="/login/" method="post">
+                {% csrf_token %}
+                {{form}}
+                <input type="submit" value="login">
+            </form>
+			
+    </center>
+ {% endblock  %}
+
+</body>
+
+<script src="{% static 'themes/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'themes/vendor/popper/popper.min.js' %}"></script>
+    <script src="{% static 'themes/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+
+</html>

@@ -1,0 +1,341 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<title>Triple Bakery</title>
+
+<!-- Bootstrap core CSS -->
+
+    
+<!-- Custom styles for this template -->
+<link href="{% static 'themes/css/full-slider.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/style1.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/font-awesome.css' %}" rel="stylesheet">
+<link href="{% static 'themes/css/style_project.css' %}" rel="stylesheet">
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="{% static 'themes/engine1/style.css' %}" />
+<script type="text/javascript" src="{% static 'themes/engine1/jquery.js' %}"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+</head>
+
+
+{% block content %}
+<body>
+<div class="BakeryNav">
+
+
+<nav class="BakeryNav1 navbar navbar-default navber-fixed-top">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+ 
+      <ul class="navdrop nav navbar-nav">
+	  
+   		<li>
+          <a style="color:brown;" a href="Home.html">Home </a>
+		  </li>
+		  
+		  <li class="dropdown">
+		  <a style="color:brown;" a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bakery <span class="caret"></span></a>
+		     <ul class="dropdown-menu">
+            <li><a href="Cakes.html">Cakes</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="Cookies.html">Cookies</a></li>
+          </ul>
+        </li>
+		
+		    <li class="dropdown">
+          <a style="color:brown;" a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.facebook.com/PLVC.SHOP/">Facebook</a></span></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://goo.gl/t4jziL">Location</a></li>
+          </ul>
+		  </li>
+		
+		        <li>
+          <a style="color:brown;" a href="About.html">About </a>
+		  </li>
+		  
+		<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		  <a style="color:brown" a href="{% url 'login' %}">Admin </a></a>
+		  </li>
+      </ul>
+
+		
+	  <form class="navbar-form navbar-left">
+      <a href="#"><img class="logo" src="{% static 'themes/img/logo.png ' %}"></a></form>
+    
+
+   
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="formBakery form-control" placeholder="Search products?">
+        </div>
+
+		<button type="button" class="bkr_button btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+	
+		<ul class="navicon nav navbar-nav navbar-right">
+			<li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"  style="font-size:18px;color:brown;  margin-left:20px"></span></a></li>
+			<li><a href="login.php"><span class="glyphicon glyphicon glyphicon-user" aria-hidden="true" style="font-size:18px;color:brown;" ></span></a></li>
+			<li><a href="#"><img class="" src=""></a></li>
+			<li><a href="#"><img class="" src=""></a></li>
+		</ul>
+
+		   </form>
+		  
+</nav>
+	</div> 
+	</div> 
+
+		<div class="Project_row1 row">
+			<div class="Project_grid1 col-md-1"></div>
+			<div class="Project_grid2 col-md-10"><img src="{% static 'themes/img/made.png' %}" class="img-responsive"/></div>
+			<div class="Project_grid3 col-md-1"></div>
+		</div>
+		
+<div class="Project_rowwie row">	
+		<div class="rowwie_1 col-md-12"><img src="{% static 'themes/img/rowwie.jpg' %}" class="img-responsive"/></div></div>
+		
+		
+<div class="Project_row4 row">
+<div class="Project_pic1 col-md-2"></div>
+<div class="Project_pic2 col-md-8"><img src="{% static 'themes/img/new.png' %}" class="img-responsive"/></div>
+<div class="Project_pic3 col-md-2"></div>
+</div>
+
+
+<div class="Project_special row">
+			<div class="special1 col-md-1"></div>
+			<div class="special2 col-md-10"><img src="" class="img-responsive"/></div>
+			<div class="special3 col-md-1"></div>
+</div>	
+
+
+	
+<div class="Project_row2 row">
+			<div class="Project_grid_1 col-md-2"></div>
+			<div class="Project_grid_2 col-md-8">
+			<div class="row">
+	
+				<div class="small1 col-md-6"><!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="{% static 'themes/data1/images/cake1.jpg ' %}" alt="" title="" id="wows1_0"/></li>
+		<li><img src="{% static 'themes/data1/images/cake2.jpg' %}" alt="" title="" id="wows1_1"/></li>
+		<li><img src="{% static 'themes/data1/images/cake3.jpg' %}" alt="" title="" id="wows1_2"/></li>
+		<li><a href="http://wowslider.net"><img src="{% static 'themes/data1/images/cake4.jpg' %}" alt="bootstrap carousel example" title="" id="wows1_3"/></a></li>
+		<li><img src="{% static 'themes/data1/images/cake5.jpg' %}" alt="" title="" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cake1.jpg' %}" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cake2.jpg' %}" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cake3.jpg' %}" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cake4.jpg' %}" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cake5.jpg' %}" alt=""/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css image gallery</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="{% static 'themes/engine1/wowslider.js' %}"></script>
+<script type="text/javascript" src="{% static 'themes/engine1/script.js' %}"></script>
+<!-- End WOWSlider.com BODY section -->
+				</div>
+			
+			
+			<div class="small2 col-md-6">
+				<a href=""><img src="{% static 'themes/img/cake.png' %}" class="img-responsive"/></a>
+				<div class="text-center">
+				<a href="Cakes.html"><button type="button" class="btn btn-warning">Buy Now</button></a>
+			</div>
+			</div>
+			</div>
+	
+			</div>
+			
+			
+			</div>
+			<div class="Project_grid_3 col-md-2"></div>
+
+
+
+
+<div class="Project_row3 row">
+			<div class="Project_grid4 col-md-2"></div>
+			<div class="Project_grid5 col-md-8">
+				<div class="small3 col-md-6"><img src="{% static 'themes/img/cookie.png' %}" class="img-responsive"/>
+					<div class="text-center">
+					<a href="Cookies.html"><button type="button" class="btn btn-warning">Buy Now</button></a></div>
+				</div>
+			<div class="small4 col-md-6">
+			<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="{% static 'themes/data1/images/cookie1s.jpg' %}" alt="" title="" id="wows1_0"/></li>
+		<li><img src="{% static 'themes/data1/images/cookie1m.jpg' %}" alt="" title="" id="wows1_1"/></li>
+		<li><img src="{% static 'themes/data1/images/cookie1l.jpg' %}" alt="" title="" id="wows1_2"/></li>
+		<li><img src="{% static 'themes/data1/images/cookie2s.jpg' %}" alt="" title="" id="wows1_3"/></li>
+		<li><img src="{% static 'themes/data1/images/cookie2m.jpg' %}" alt="" title="" id="wows1_4"/></li>
+		<li><img src="{% static 'themes/data1/images/cookie2l.jpg' %}" alt="" title="" id="wows1_5"/></li>
+		<li><img src="{% static 'themes/data1/images/cookie3s.jpg' %}" alt="" title="" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="{% static 'themes/data1/images/cookie3m.jpg' %}" alt="javascript slideshow" title="" id="wows1_7"/></a></li>
+		<li><img src="{% static 'themes/data1/images/cookie3l.jpg' %}" alt="" title="" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie1s.jpg' %}" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie1m.jpg' %}" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie1l.jpg' %}" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie2s.jpg' %}" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie2m.jpg' %}" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie2l.jpg' %}" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie3s.jpg' %}" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie3m.jpg' %}" alt=""/>8</span></a>
+		<a href="#" title=""><span><img src="{% static 'themes/data1/tooltips/cookie3l.jpg' %}" alt=""/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="{% static 'themes/engine1/wowslider.js' %}"></script>
+<script type="text/javascript" src="{% static 'themes/engine1/script.js' %}"></script>
+<!-- End WOWSlider.com BODY section -->
+			</div>
+			
+			</div>
+			<div class="Project_grid6 col-md-2"></div>
+			
+<div class="Project_rowwie row">	
+		<div class="rowwie_1 col-md-12"><img src="{% static 'themes/img/rowwie2.jpg' %}" class="img-responsive"/></div>			
+			</div>
+	
+		<div class="Project_rowdo row">
+			<div class="do1 col-md-2"></div>
+			<div class="do2 col-md-8">
+				<div class="smalldo1 col-md-6"><img src="{% static 'themes/img/do1.png' %}" class="img-responsive"/></div>
+				<div class="smalldo2 col-md-6"><img src="{% static 'themes/img/do2.png' %}" class="img-responsive"/></div>
+			<div class="do3 col-md-2"></div>
+		</div>
+		</div>
+		
+		<div class="Project_rowdo row">
+			<div class="do1 col-md-2"></div>
+			<div class="do2 col-md-8">
+				<div class="smalldo1 col-md-6"><img src="{% static 'themes/img/do4.png' %}" class="img-responsive"/></div>
+				<div class="smalldo2 col-md-6"><img src="{% static 'themes/img/do3.png' %}" class="img-responsive"/></div>
+			<div class="do3 col-md-2"></div>
+		</div>
+		</div>
+
+
+</div>
+
+
+
+
+<footer  class="page_footer font-small blue pt-4">
+	<div class="container-fluid text-md-left">
+	
+	
+	
+	
+	
+	<div class="row">	
+	<div class="col-md-1"></div> 	
+
+
+	<div class="col-md-11">	
+		<div class="col-md-3 mb-md-0 mb-3">
+		
+			<h4 class="text-uppercase">Products :</h4>
+			<h5 class="text-uppercase">Bakery</h5>
+			<ul>
+
+				<li>
+					<a href="Cakes.html">Cakes</a>
+				</li>
+				<li>
+					<a href="Cookies.html">Cookies</a>
+				</li>
+
+			</ul>
+		</div>
+		
+		<div class="col-md-3 mb-md-0 mb-3">
+		
+			<h4 class="text-uppercase">Web Admin</h4>
+			<h5 class="text-uppercase">Quick links:</h5>
+			<ul>
+				<li>
+					<a href="login.php">Registration</a>
+				</li>
+				<li>
+					<a href="login.php">Admin</a>
+				</li>
+				<li>
+					<a href="About.html">About</a>
+				</li>
+				<li>
+					<a href="{% url 'login' %}">Log in</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="col-md-6 mb-md-0 mb-3">
+		
+			<h4 class="text-uppercase">Contact :</h4>
+			<h5 class="text-uppercase">Phitsanulok Vocational College</h5>
+			<ul>
+				<li>60 Wangchan Rd, Tambon Nai Mueng,</li>
+				<li>Amphoe Mueng Phitsanulok,</li>
+				<li>Chang Wat Phitsanulok 65000</li>
+				<li>Phone : 055 258 570</li>				
+			</ul>
+		</div>
+
+		
+
+		<!-- Grid column -->
+	</div>
+		<!-- Grid row -->
+	</div>
+	</div> 
+	<!-- Footer Links -->
+	
+	<!-- Copyright -->
+	
+	<!-- Copyright -->
+
+</footer>
+	<!-- Footer -->
+<div style="height:50px; background:#000000; padding-top:10px; color:white; font-family:Trattalo,fantasy;"class="footer-copyright text-center py-3">© Copyright 2018</div>
+
+</body>
+
+{% endblock  %}
+
+	<script src="% static 'themes/vendor/jquery/jquery.min.js'  %}"></script>
+    <script src="% static 'themes/vendor/popper/popper.min.js'  %}"></script>
+    <script src="% static 'themes/vendor/bootstrap/js/bootstrap.min.js'  %}"></script> 
+
+</html>
+
+ 
